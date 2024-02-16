@@ -95,21 +95,19 @@ h1, h2, h3{
 
 .grid div:nth-child(3n+2)  {
      /* Set box shadow */
-     box-shadow: -3px 0 0 0;
+     box-shadow: 3px 0 0 0, -3px 0 0 0;
 }
 
 
 .grid div:nth-child(3n)  {
     /* Set box shadow */ 
+    box-shadow: -3px 0 0 0;
 }
 
-.grid div:nth-child(3n+2)  {
-     /* Set box shadow */
-}
-    
 
 p + p {
      /* Set indentation */
+     
   }
   
 p{
