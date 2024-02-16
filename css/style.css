@@ -107,16 +107,18 @@ h1, h2, h3{
 
 p + p {
      /* Set indentation */
-     
+    text-indent: 20px;
   }
   
 p{
      /* Set margin */
+     margin-top: 20px;
 }
 
 
 .grid ul li{
     /* Set margin, line-spacing, list styling  */
+    line-height: single;
 }
 
 @media screen and (min-width: 768px){
